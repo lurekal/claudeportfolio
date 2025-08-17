@@ -42,7 +42,7 @@ export default function Header() {
           </div>
 
           <div className="hidden md:flex items-center gap-4">
-            <a
+            {/* <a
               href="https://github.com"
               target="_blank"
               rel="noopener noreferrer"
@@ -63,7 +63,7 @@ export default function Header() {
               className="text-gray-600 dark:text-gray-300 hover:text-purple-600 dark:hover:text-purple-400 transition-colors"
             >
               <Mail size={20} />
-            </a>
+            </a> */}
           </div>
 
           <button
@@ -91,7 +91,7 @@ export default function Header() {
               </Link>
             ))}
             <div className="flex gap-4 mt-4">
-              <a
+              {/* <a
                 href="https://github.com"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -112,7 +112,7 @@ export default function Header() {
                 className="text-gray-600 dark:text-gray-300 hover:text-purple-600 dark:hover:text-purple-400 transition-colors"
               >
                 <Mail size={20} />
-              </a>
+              </a> */}
             </div>
           </motion.div>
         )}
