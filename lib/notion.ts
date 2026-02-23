@@ -84,7 +84,7 @@ export async function getProjects(): Promise<Project[]> {
     return projects;
   } catch (error) {
     console.error('Error fetching projects from Notion:', error);
-    return [];
+    throw error;
   }
 }
 
@@ -137,6 +137,6 @@ export async function getProjectById(id: string): Promise<Project | null> {
     };
   } catch (error) {
     console.error('Error fetching project from Notion:', error);
-    return null;
+    throw error;
   }
 }
