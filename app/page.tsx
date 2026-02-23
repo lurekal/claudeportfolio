@@ -3,6 +3,8 @@ import Hero from '@/components/Hero';
 import ProjectCard from '@/components/ProjectCard';
 import Header from '@/components/Header';
 
+export const revalidate = 1800;
+
 export default async function Home() {
   const projects = await getProjects();
 

@@ -5,6 +5,8 @@ import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import Header from '@/components/Header';
 
+export const revalidate = 1800;
+
 export async function generateStaticParams() {
   const projects = await getProjects();
   return projects.map((project) => ({
