@@ -36,23 +36,22 @@ export default async function Home() {
               About Me
             </h2>
             <div className="max-w-3xl mx-auto">
-     <p className="text-lg text-gray-600 dark:text-gray-300 mb-6">
-  저는 사용자 관점에서 문제를 정의하고, 그것을 웹 애플리케이션으로 풀어내는 일을
-  좋아하는 개발자입니다. 새로운 기술을 배워 실무에 적용하는 데 관심이 많고,
-  혼자보다 팀과 함께 성장하는 방식을 더 가치 있게 생각합니다.
-</p>
-<p className="text-lg text-gray-600 dark:text-gray-300 mb-6">
-  프런트엔드는 React, Next.js, TypeScript를, 백엔드는 Java와 Node.js를 주로
-  사용해 왔습니다. 최근에는 AI를 개발 과정에 적극적으로 활용하며 생산성과
-  품질을 함께 끌어올리는 방법을 연구하고 있습니다.
-</p>
-<p className="text-lg text-gray-600 dark:text-gray-300 mb-6">
-  AI가 구현의 상당 부분을 대신하게 되면서, 개발자의 역할은 &lsquo;어떻게 만들 것인가&rsquo;에서
-  &lsquo;무엇이 옳은가&rsquo;를 판단하는 쪽으로 옮겨가고 있다고 생각합니다. 그래서 저는 실제 업무
-  도메인을 깊이 이해하고, 그 이해를 바탕으로 방향을 제시하며 결과물의 품질을
-  책임지는 개발자가 되고자 합니다.
-</p>
-
+              <p className="text-lg text-gray-600 dark:text-gray-300 mb-6">
+                저는 사용자 관점에서 문제를 정의하고, 그것을 웹 애플리케이션으로 풀어내는 일을
+                좋아하는 개발자입니다. 새로운 기술을 배워 실무에 적용하는 데 관심이 많고,
+                혼자보다 팀과 함께 성장하는 방식을 더 가치 있게 생각합니다.
+              </p>
+              <p className="text-lg text-gray-600 dark:text-gray-300 mb-6">
+                프런트엔드는 React, Next.js, TypeScript를, 백엔드는 Java와 Node.js를 주로
+                사용해 왔습니다. 최근에는 AI를 개발 과정에 적극적으로 활용하며 생산성과
+                품질을 함께 끌어올리는 방법을 연구하고 있습니다.
+              </p>
+              <p className="text-lg text-gray-600 dark:text-gray-300 mb-6">
+                AI가 구현의 상당 부분을 대신하게 되면서, 개발자의 역할은 &lsquo;어떻게 만들 것인가&rsquo;에서
+                &lsquo;무엇이 옳은가&rsquo;를 판단하는 쪽으로 옮겨가고 있다고 생각합니다. 그래서 저는 실제 업무
+                도메인을 깊이 이해하고, 그 이해를 바탕으로 방향을 제시하며 결과물의 품질을
+                책임지는 개발자가 되고자 합니다.
+              </p>
               <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mt-8">
                 {['React', 'Next.js', 'JavaScript', 'Node.js', 'Java', 'Tailwind CSS', 'my-sql', 'ms-sql'].map((skill) => (
                   <div key={skill} className="text-center p-4 bg-gray-50 dark:bg-gray-700 rounded-lg">
